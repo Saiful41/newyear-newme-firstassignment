@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    font-family: 'work sans';
+}
+/* Header part */
+.header{
+    background-image: url('images/banner/banner3.png');
+    width: 1600px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 130px;
+}
+/* navigation part */
+nav{
+    display: flex;  
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.header-part{
+    max-width: 525px;
+    text-align: right;
+    position: absolute;
+    margin: 220px 230px 370px 845px;
+
+}
+.heading-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+    color: white;
+}
+.title-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:white;
+}
+.button{
+    color:  #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 26px;
+}
+/* main part */
+ 
+.failar-section{
+    display: flex;
+    margin-left: 230px;
+    max-width: 1140px;
+    margin-bottom: 200px;
+}
+.failar-tital{
+    margin-left: 130px;
+    margin-top: 210px;
+    
+}
+.failar-img{
+    width: 400px;
+    height: 600px;
+}
+.failar-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    font-style: normal;
+    margin-bottom: 24px;
+}
+.failar-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.failar-list{
+    margin-top: 16px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+/* planning section */
+.planning{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+.planning-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+}
+.all-plan{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.plan-sub-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.plan-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* banner section */
+.banner{
+    max-width: 1140px;
+    height: 300px;
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('images/watch.png');
+    margin: 0 auto;
+    margin-bottom: 130px;
+
+}
+.banner-caption{
+    height: 180px;
+    padding: 60px 64px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+}
+.footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 330px;
+    padding: 130px;
+}
+.future-part{
+    width: 485px;
+    height: 317px;
+}
+.subs-heading{
+    font-weight: 600;
+    font-size: 25px;
+}
